@@ -10,6 +10,9 @@ import java.util.UUID;
 
 /**
  * Created by jt on 2019-04-23.
+ *
+ * sfg.bewery is located in application.properties and sfg.brewery.apihost is injected in BreweryClient.apihost
+ *
  */
 @ConfigurationProperties(prefix = "sfg.brewery", ignoreUnknownFields = false)
 @Component
